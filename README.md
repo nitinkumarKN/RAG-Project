@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Medical Research Assistant
 
 Production-oriented MERN + Python + LangChain application for answering questions from uploaded medical research papers.
@@ -160,3 +161,6 @@ See `docs/deployment.md` for the deployment checklist.
 ## Notes
 
 The current implementation is designed to be easy to extend, while staying modular and production-minded without unnecessary overengineering.
+=======
+# RAG-Project
+>>>>>>> 976cf6254d35501babb2b61d445d3c85ca792516
