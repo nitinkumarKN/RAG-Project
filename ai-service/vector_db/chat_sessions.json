@@ -1,0 +1,944 @@
+{
+  "default": [
+    {
+      "role": "user",
+      "content": "hiii",
+      "timestamp": "2026-08-06T10:06:55.668974+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:06:55.671519+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "Step_1_Sample_Items.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745c74b4f45a9e5fc3da1c",
+              "workspace_id": null,
+              "document_name": "Step_1_Sample_Items.pdf",
+              "title": "Step 1 Sample Items",
+              "filename": "1786010739296-Step_1_Sample_Items.pdf",
+              "page_number": null
+            },
+            "excerpt": "Step 1\nSAMPLE TEST QUESTIONS\nA Joint Program of the Federation of State Medical Boards of the\nUnited States, Inc., and National Board of Medical Examiners\n\u00ae\n\n1\nThis booklet was updated February 2021.\nFor Public Release\nCopyright \u00a9 2021 by the Federation of State Medical Boards of"
+          },
+          {
+            "documentName": "Step_1_Sample_Items.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745b43b4f45a9e5fc3da12",
+              "workspace_id": null,
+              "document_name": "Step_1_Sample_Items.pdf",
+              "title": "Step 1 Sample Items",
+              "filename": "1786010433939-Step_1_Sample_Items.pdf",
+              "page_number": null
+            },
+            "excerpt": "Step 1\nSAMPLE TEST QUESTIONS\nA Joint Program of the Federation of State Medical Boards of the\nUnited States, Inc., and National Board of Medical Examiners\n\u00ae\n\n1\nThis booklet was updated February 2021.\nFor Public Release\nCopyright \u00a9 2021 by the Federation of State Medical Boards of"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what was the main content of this pdf",
+      "timestamp": "2026-08-06T10:07:45.611287+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:07:45.612979+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "Step_1_Sample_Items.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745cd8b4f45a9e5fc3da51",
+              "workspace_id": null,
+              "document_name": "Step_1_Sample_Items.pdf",
+              "title": "Step 1 Sample Items",
+              "filename": "1786010839620-Step_1_Sample_Items.pdf",
+              "page_number": null
+            },
+            "excerpt": "Step 1\nSAMPLE TEST QUESTIONS\nA Joint Program of the Federation of State Medical Boards of the\nUnited States, Inc., and National Board of Medical Examiners\n\u00ae\n\n1\nThis booklet was updated February 2021.\nFor Public Release\nCopyright \u00a9 2021 by the Federation of State Medical Boards of"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is diabtes",
+      "timestamp": "2026-08-06T10:08:12.447393+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:08:12.449103+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "Step_1_Sample_Items.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745cd8b4f45a9e5fc3da51",
+              "workspace_id": null,
+              "document_name": "Step_1_Sample_Items.pdf",
+              "title": "Step 1 Sample Items",
+              "filename": "1786010839620-Step_1_Sample_Items.pdf",
+              "page_number": null
+            },
+            "excerpt": "Step 1\nSAMPLE TEST QUESTIONS\nA Joint Program of the Federation of State Medical Boards of the\nUnited States, Inc., and National Board of Medical Examiners\n\u00ae\n\n1\nThis booklet was updated February 2021.\nFor Public Release\nCopyright \u00a9 2021 by the Federation of State Medical Boards of"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what was the main content of this pdf",
+      "timestamp": "2026-08-06T10:09:26.178034+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:09:26.180277+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "JAVA mini ppt.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745d37b4f45a9e5fc3da7c",
+              "workspace_id": null,
+              "document_name": "JAVA mini ppt.pdf",
+              "title": "JAVA mini ppt",
+              "filename": "1786010933718-JAVA_mini_ppt.pdf",
+              "page_number": null
+            },
+            "excerpt": "JAVA Project Report\n(CIC-258)\nSubmitted in partial fulfillment of the\nrequirement for the award of the degree of\nBachelor of\nTechnology in\nInformation Technology\n\nSubmitted by:\nNITIN (51)\nSHARAD (39)\nOM (40)\nMAAN(58)\nIT-2\nUnder the Supervision of\nMr surrender singh & Ms. Nidhi Go"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "What is inheritance?",
+      "timestamp": "2026-08-06T10:10:31.146118+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:10:31.148032+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "JAVA mini ppt.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745d37b4f45a9e5fc3da7c",
+              "workspace_id": null,
+              "document_name": "JAVA mini ppt.pdf",
+              "title": "JAVA mini ppt",
+              "filename": "1786010933718-JAVA_mini_ppt.pdf",
+              "page_number": null
+            },
+            "excerpt": "JAVA Project Report\n(CIC-258)\nSubmitted in partial fulfillment of the\nrequirement for the award of the degree of\nBachelor of\nTechnology in\nInformation Technology\n\nSubmitted by:\nNITIN (51)\nSHARAD (39)\nOM (40)\nMAAN(58)\nIT-2\nUnder the Supervision of\nMr surrender singh & Ms. Nidhi Go"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is National Immunization Technical Advisory Group",
+      "timestamp": "2026-08-06T10:14:18.755125+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:14:18.756830+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "You are a Senior AI Engineer specializing in LangChain, RAG, FAISS, FastAPI and Gemini.\n\nMy AI Medical Research Assistant is retrieving the uploaded PDF but the answers are poor.\n\nCurrent behaviour\n\n- PDF uploads successfully.\n- FAISS index is created.\n- Sources are displayed.\n- Gemini API works.\n- Chat works.\n\nHowever every question returns\n\n\"I could not find this information in the uploaded documents.\"\n\neven though the answer clearly exists in the uploaded WHO PDF.\n\nThe retrieved source usually contains only the title page instead of the relevant content.\n\nI need you to improve my RAG implementation.\n\nDO NOT rewrite my project.\n\nDO NOT change the folder structure.\n\nOnly improve the existing retrieval pipeline.\n\n====================================================\nTASK 1\n====================================================\n\nInspect the entire RAG pipeline.\n\nVerify\n\nDocument Loading\n\nChunking\n\nEmbedding\n\nVector Store\n\nRetriever\n\nPrompt\n\nLLM\n\n====================================================\nTASK 2\n====================================================\n\nImprove chunking.\n\nCurrent chunking is too small or incorrect.\n\nUse\n\nRecursiveCharacterTextSplitter\n\nchunk_size = 1500\n\nchunk_overlap = 300\n\nKeep page metadata.\n\nKeep document metadata.\n\n====================================================\nTASK 3\n====================================================\n\nImprove Retriever.\n\nReplace\n\nSimilarity Search\n\nwith\n\nMMR Retrieval\n\nExample\n\nsearch_type=\"mmr\"\n\nsearch_kwargs={\n\n\"k\":10,\n\n\"fetch_k\":30\n\n}\n\n====================================================\nTASK 4\n====================================================\n\nImplement MultiQueryRetriever.\n\nGenerate multiple search queries before retrieval.\n\nMerge results.\n\nRemove duplicates.\n\n====================================================\nTASK 5\n====================================================\n\nImplement Contextual Compression Retriever.\n\nRemove irrelevant chunks.\n\nKeep only useful context.\n\n====================================================\nTASK 6\n====================================================\n\nIncrease retrieval quality.\n\nInstead of retrieving only 4 chunks\n\nretrieve\n\nTop 10\n\nRerank\n\nReturn best 5\n\n====================================================\nTASK 7\n====================================================\n\nPrint debug logs.\n\nQuestion\n\nGenerated Search Queries\n\nRetrieved Chunks\n\nSimilarity Score\n\nChunk Metadata\n\nPage Number\n\nDocument Name\n\n====================================================\nTASK 8\n====================================================\n\nPrint first 500 characters of every retrieved chunk.\n\nI want to verify the retriever is finding the correct section.\n\n====================================================\nTASK 9\n====================================================\n\nImprove Prompt Template.\n\nCurrent prompt is too restrictive.\n\nCreate a production prompt.\n\nSystem Prompt\n\nYou are an AI Medical Research Assistant.\n\nAnswer ONLY using the retrieved context.\n\nIf multiple chunks are retrieved,\n\ncombine them into one complete answer.\n\nDo not answer from general knowledge.\n\nIf context is insufficient,\n\nsay\n\n\"The uploaded documents do not contain enough information.\"\n\nAlways include\n\nDocument Name\n\nPage Number\n\nConfidence\n\n====================================================\nTASK 10\n====================================================\n\nImplement a similarity threshold.\n\nIf score < threshold\n\nretrieve more chunks.\n\n====================================================\nTASK 11\n====================================================\n\nSupport summary questions.\n\nIf the user asks\n\n\"What is this PDF about?\"\n\n\"Summarize this report.\"\n\n\"Main content.\"\n\nDo NOT use normal retrieval.\n\nInstead\n\nSummarize the entire document.\n\n====================================================\nTASK 12\n====================================================\n\nImplement Parent Document Retriever.\n\nRetrieve small chunks\n\nReturn larger parent sections.\n\n====================================================\nTASK 13\n====================================================\n\nImprove metadata.\n\nStore\n\nfilename\n\npage\n\ntitle\n\nheading\n\nsection\n\ndocument_id\n\nworkspace_id\n\n====================================================\nTASK 14\n====================================================\n\nIf answer exists in the PDF\n\nthe chatbot MUST answer.\n\nIt must never return\n\n\"I could not find this information\"\n\nwhen the retrieved chunks clearly contain the answer.\n\n====================================================\nTASK 15\n====================================================\n\nUse LangChain latest best practices.\n\nUse\n\ncreate_history_aware_retriever()\n\ncreate_retrieval_chain()\n\ncreate_stuff_documents_chain()\n\nChatPromptTemplate\n\nMessagesPlaceholder\n\nRunnablePassthrough\n\nRunnableLambda\n\nStrOutputParser\n\n====================================================\nTASK 16\n====================================================\n\nAdd a Retrieval Debug Panel.\n\nPrint\n\nQuestion\n\nRetrieved Chunks\n\nPage Numbers\n\nSimilarity Scores\n\nPrompt Sent To Gemini\n\nGemini Response\n\nFinal Answer\n\n====================================================\nFINAL OUTPUT\n====================================================\n\n1. Root cause\n\n2. Files modified\n\n3. Code changes\n\n4. Retrieval improvements\n\n5. Prompt improvements\n\n6. Why previous retrieval failed\n\n7. Before vs After comparison\n\n8. Verify that questions like\n\n\"What is National Immunization Technical Advisory Group?\"\n\nnow return the correct answer from the WHO PDF.",
+      "timestamp": "2026-08-06T10:18:39.415301+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:18:39.417139+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is nho",
+      "timestamp": "2026-08-06T10:19:11.045716+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:19:11.047637+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who",
+      "timestamp": "2026-08-06T10:45:16.055986+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:45:16.057846+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who",
+      "timestamp": "2026-08-06T10:46:45.213395+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:46:45.216039+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who",
+      "timestamp": "2026-08-06T10:49:35.153897+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:49:35.159767+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who",
+      "timestamp": "2026-08-06T10:53:52.090895+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I could not find this information in the uploaded documents.",
+      "timestamp": "2026-08-06T10:53:52.093417+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "who",
+      "timestamp": "2026-08-06T11:09:46.067786+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nWHO stands for World Health Organization.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): 3\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-06T11:09:46.077080+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who",
+      "timestamp": "2026-08-06T13:06:33.506748+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nWHO stands for World Health Organization.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): 3\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-06T13:06:33.508513+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "give me more detail and workinf of who",
+      "timestamp": "2026-08-06T13:07:19.535368+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nWHO stands for World Health Organization.\n\nThe World Health Organization (WHO) is extensively involved in global public health initiatives, particularly in the context of poliomyelitis eradication. Its working and details, as described in the documents, include:\n\n*   **Poliomyelitis Eradication and Oversight:**\n    *   WHO is the parent organization for bodies like the South-East Asia Regional Certification Commission for Poliomyelitis Eradication (SEA-RCCPE), which provides independent oversight to the polio eradication program in the South-East Asia Region.\n    *   The SEA-RCCPE, a WHO commission, meets annually to review reports from National Certification Committees for Poliomyelitis Eradication (NCCPEs) of Member States. It assesses progress in maintaining wild poliovirus-free status, monitors vaccine-derived polioviruses, advances poliovirus laboratory containment, and oversees polio transition activities.\n    *   WHO is associated with the certification of regions as polio-free, such as the South-East Asia Region in March 2014.\n    *   It is involved in the global Polio Eradication Strategy (2022\u20132029), which provides the framework for achieving and sustaining global polio eradication.\n\n*   **Guidance and Recommendations:**\n    *   WHO provides recommendations for polio vaccine schedules, often in alignment with SAGE (Strategic Advisory Group of Experts on Immunization) recommendations, to Member States.\n    *   It supports Member States in strengthening routine immunization and surveillance.\n\n*   **Surveillance and Laboratory Support:**\n    *   WHO is involved in estimating national immunization coverage, as seen with the WHO and UNICEF Estimates of National Immunization Coverage (WUENIC).\n    *   It collaborates with countries on aspects like the feasibility assessment for establishing environmental surveillance and conducting onsite accreditation of national polio laboratories through its Secretariat.\n\n*   **Organizational Structure and Activities:**\n    *   WHO has a global presence with headquarters, regional offices (e.g., WHO Regional Office for South-East Asia - SEARO), and country offices.\n    *   It organizes and hosts meetings, such as the Nineteenth Meeting of the SEA-RCCPE, bringing together various stakeholders.\n    *   WHO publishes reports and documents, taking reasonable precautions to verify information, though it disclaims liability for the interpretation and use of the material by the reader.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): None, 3, 4, 5, 6, 7, 8, 10, 13, 15, 16, 19, 20, 21, 22, 27, 28\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-06T13:07:19.536193+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who explain",
+      "timestamp": "2026-08-06T14:13:31.181688+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nWHO stands for World Health Organization.\n\nThe World Health Organization (WHO) is a global public health authority extensively involved in various health initiatives, particularly in the context of poliomyelitis eradication and broader health security. Its functions and operational details, as described in the documents, include:\n\n*   **Poliomyelitis Eradication and Oversight:**\n    *   WHO is the parent organization for commissions like the South-East Asia Regional Certification Commission for Poliomyelitis Eradication (SEA-RCCPE), which provides independent oversight to the polio eradication program in the South-East Asia Region.\n    *   The SEA-RCCPE, a WHO commission, meets annually to review reports from National Certification Committees for Poliomyelitis Eradication (NCCPEs) of Member States. It assesses progress in maintaining wild poliovirus-free status, monitors vaccine-derived polioviruses, advances poliovirus laboratory containment, and oversees polio transition activities.\n    *   WHO was associated with the certification of the South-East Asia Region as polio-free in March 2014.\n    *   It provides the overarching framework for global polio eradication through strategies like the global Polio Eradication Strategy (2022\u20132029).\n\n*   **Guidance and Recommendations:**\n    *   WHO provides recommendations for polio vaccine schedules, often in alignment with SAGE (Strategic Advisory Group of Experts on Immunization) recommendations, to Member States.\n    *   It supports Member States in strengthening routine immunization and surveillance systems.\n\n*   **Surveillance and Laboratory Support:**\n    *   WHO is involved in estimating national immunization coverage, as evidenced by the WHO and UNICEF Estimates of National Immunization Coverage (WUENIC).\n    *   It collaborates with countries on feasibility assessments for establishing environmental surveillance and conducts onsite accreditation of national polio laboratories through its Secretariat.\n    *   WHO emphasizes the importance of maintaining highly sensitive surveillance systems capable of rapidly detecting any poliovirus event.\n\n*   **Organizational Structure and Activities:**\n    *   WHO has a global presence with headquarters, regional offices (e.g., WHO Regional Office for South-East Asia - SEARO), and country offices.\n    *   It organizes and hosts meetings, such as the Nineteenth Meeting of the SEA-RCCPE, bringing together various stakeholders.\n    *   WHO publishes reports and documents, taking reasonable precautions to verify information, though it disclaims liability for the interpretation and use of the material by the reader.\n    *   The organization plays a critical role in ensuring collective accountability for public health goals.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): None, 3, 4, 5, 6, 7, 8, 10, 13, 15, 16, 19, 20, 21, 22, 23, 27, 28\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-06T14:13:31.183707+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a745e51b4f45a9e5fc3dab1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786011216693-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "Summarize this PDF",
+      "timestamp": "2026-08-06T14:40:18.314586+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe provided document is the \"Report of the Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication (SEA-RCCPE),\" held in Colombo, Sri Lanka, from 24 to 26 June 2026.\n\nThe primary purpose of the meeting was to assess progress in sustaining the wild poliovirus-free status of the South-East Asia Region. The SEA-RCCPE provides independent oversight to the polio eradication program in the region, reviewing annual reports from National Certification Committees for Poliomyelitis Eradication (NCCPEs) of Member States.\n\nKey aspects reviewed and conclusions drawn include:\n\n*   **Polio-Free Status:** The Commission concluded that the WHO South-East Asia Region continues to maintain its wild poliovirus-free status, with no evidence of wild poliovirus (WPV) circulation. This achievement is attributed to the sustained commitment of Member States, NCCPEs, surveillance networks, laboratories, and partners.\n*   **Population Immunity:** Regional population immunity remains generally high, with most countries implementing both bOPV and IPV schedules. However, significant immunity gaps persist among zero-dose and under-immunized populations, hard-to-reach communities, migrant populations, and areas with subnational disparities in vaccination coverage. Three countries had not yet introduced a second dose of inactivated poliovirus vaccine (IPV2).\n*   **Surveillance and Laboratory Performance:** Surveillance systems are generally sensitive, providing a strong platform for early detection. This includes AFP surveillance, environmental surveillance (in five countries with over 100 sites), and high-performing laboratory networks. Despite this, operational challenges exist, such as variations in AFP detection, stool adequacy, timeliness of reporting, specimen transport, and case classification in some countries. Recent variant poliovirus detections were identified through these sensitive systems, followed by timely investigations and responses.\n*   **Poliovirus Containment:** Containment activities are largely on track, but country-specific gaps remain. These include the need for updated facility inventories, strengthened containment structures, and continued compliance with the Global Action Plan for Poliovirus Containment (GAPIV) requirements.\n*   **Polio Transition:** The transition of polio assets and functions, as external financing declines, is a critical area. While some progress has been made in integrating essential polio functions into broader health systems, transition milestones are behind schedule in several priority countries (Bangladesh, India, Myanmar, Nepal). Concerns were raised about the long-term sustainability of surveillance, laboratory, and outbreak response capacities due to declining external funding and the risk of losing trained human resources.\n*   **Global and Regional Risk Context:** The international spread of poliovirus remains a Public Health Emergency of International Concern, with ongoing WPV1 transmission in endemic countries and cVDPV outbreaks in multiple regions. This necessitates continued vigilance against importation risks and sustained eradication-level program performance.\n\nThe SEA-RCCPE provided overarching recommendations, including strengthening routine immunization and surveillance at the subnational level, optimizing polio vaccine schedules, enhancing outbreak preparedness and cross-border collaboration, optimizing environmental surveillance, strengthening containment oversight, and securing sustainable domestic financing for essential polio functions and transition. Country-specific conclusions and recommendations were also provided for Bangladesh, Bhutan, Democratic People\u2019s Republic of Korea, India, Maldives, Myanmar, Nepal, Sri Lanka, Thailand, and Timor-Leste.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): None, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 22, 28\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-06T14:40:18.319628+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a749ca1b4f45a9e5fc3dbb8",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786027168901-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is inside the content",
+      "timestamp": "2026-08-07T15:58:13.846183+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe content of the document \"Report of the Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\" includes the following sections:\n\n*   Abbreviations and acronyms\n*   Executive summary\n*   Introduction\n*   Objectives of the meeting\n*   Organization of the meeting\n*   Methodology of the regional review\n*   Situation update and issues reviewed\n    *   Global and regional risk context\n    *   Population immunity\n    *   Surveillance, environmental surveillance and laboratory performance\n    *   Poliovirus containment\n    *   Polio transition\n    *   Implementation status of key recommendations from the 18th meeting\n*   Conclusions and recommendations\n    *   Overarching conclusions by SEA-RCCPE\n    *   Overarching recommendations by SEA-RCCPE\n*   Country-specific conclusions and recommendations (for Bangladesh, Bhutan, Democratic People\u2019s Republic of Korea, India, Maldives, Myanmar, Nepal, Sri Lanka, Thailand, and Timor-Leste)\n*   Annex 1: Agenda\n*   Annex 2: Message from OIC\n*   Annex 3: List of participants\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): None, 2, 3, 4, 7, 8, 9, 10, 11, 13, 14, 19, 22, 24\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-07T15:58:13.852209+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "C&S UNIT 2 NOTES.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a760073cdb02784e5163b4d",
+              "workspace_id": null,
+              "document_name": "C&S UNIT 2 NOTES.pdf",
+              "title": "C&S UNIT 2 NOTES",
+              "filename": "1786118258856-C_S_UNIT_2_NOTES.pdf",
+              "page_number": null
+            },
+            "excerpt": "Scanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScan"
+          },
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a749ca1b4f45a9e5fc3dbb8",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786027168901-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is inside the content",
+      "timestamp": "2026-08-07T15:58:58.766198+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nI could not find this information in the uploaded documents.\n\nSource:\n- Document: C&S UNIT 2 NOTES.pdf\n- Page(s): None\n\nConfidence:\nLow",
+      "timestamp": "2026-08-07T15:58:58.770669+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "C&S UNIT 2 NOTES.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a760073cdb02784e5163b4d",
+              "workspace_id": null,
+              "document_name": "C&S UNIT 2 NOTES.pdf",
+              "title": "C&S UNIT 2 NOTES",
+              "filename": "1786118258856-C_S_UNIT_2_NOTES.pdf",
+              "page_number": null
+            },
+            "excerpt": "Scanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScan"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is inside the content",
+      "timestamp": "2026-08-07T15:59:49.381008+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe retrieved content from the document \"C&S UNIT 2 NOTES.pdf\" consists solely of the phrase \"Scanned by CamScanner\" repeated multiple times. No other specific content or information is discernible from the provided excerpts.\n\nSource:\n- Document: C&S UNIT 2 NOTES.pdf\n- Page(s): None\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-07T15:59:49.383119+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "C&S UNIT 2 NOTES.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a760073cdb02784e5163b4d",
+              "workspace_id": null,
+              "document_name": "C&S UNIT 2 NOTES.pdf",
+              "title": "C&S UNIT 2 NOTES",
+              "filename": "1786118258856-C_S_UNIT_2_NOTES.pdf",
+              "page_number": null
+            },
+            "excerpt": "Scanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScan"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what was inside the content",
+      "timestamp": "2026-08-07T16:00:00.841384+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe retrieved content from the document \"C&S UNIT 2 NOTES.pdf\" consists solely of the phrase \"Scanned by CamScanner\" repeated multiple times. No other specific content or information is discernible from the provided excerpts.\n\nSource:\n- Document: C&S UNIT 2 NOTES.pdf\n- Page(s): None\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-07T16:00:00.846121+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "C&S UNIT 2 NOTES.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a760073cdb02784e5163b4d",
+              "workspace_id": null,
+              "document_name": "C&S UNIT 2 NOTES.pdf",
+              "title": "C&S UNIT 2 NOTES",
+              "filename": "1786118258856-C_S_UNIT_2_NOTES.pdf",
+              "page_number": null
+            },
+            "excerpt": "Scanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScan"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is circuit",
+      "timestamp": "2026-08-07T16:00:29.282950+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nI could not find this information in the uploaded documents.\n\nSource:\n- Document: C&S UNIT 2 NOTES.pdf\n- Page(s): None\n\nConfidence:\nLow",
+      "timestamp": "2026-08-07T16:00:29.287774+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "C&S UNIT 2 NOTES.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a760073cdb02784e5163b4d",
+              "workspace_id": null,
+              "document_name": "C&S UNIT 2 NOTES.pdf",
+              "title": "C&S UNIT 2 NOTES",
+              "filename": "1786118258856-C_S_UNIT_2_NOTES.pdf",
+              "page_number": null
+            },
+            "excerpt": "Scanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScan"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is transcient respnose",
+      "timestamp": "2026-08-07T16:01:02.732901+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nI could not find this information in the uploaded documents.\n\nSource:\n- Document: C&S UNIT 2 NOTES.pdf\n- Page(s): None\n\nConfidence:\nLow",
+      "timestamp": "2026-08-07T16:01:02.739340+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "C&S UNIT 2 NOTES.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a760073cdb02784e5163b4d",
+              "workspace_id": null,
+              "document_name": "C&S UNIT 2 NOTES.pdf",
+              "title": "C&S UNIT 2 NOTES",
+              "filename": "1786118258856-C_S_UNIT_2_NOTES.pdf",
+              "page_number": null
+            },
+            "excerpt": "Scanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScanned by CamScanner\n\nScan"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who doing in this",
+      "timestamp": "2026-08-07T16:01:48.757095+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe World Health Organization (WHO) is extensively involved in the polio eradication program in the South-East Asia Region, primarily through the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication (SEA-RCCPE). Its activities include:\n\n*   **Organizing and Hosting Meetings:** WHO organizes and hosts key meetings, such as the Nineteenth Meeting of the SEA-RCCPE, which was held in Colombo, Sri Lanka, from 24 to 26 June 2026. The meeting involved participation from WHO headquarters, regional offices, and country offices.\n*   **Providing Oversight and Guidance:** The SEA-RCCPE, a WHO body, provides independent oversight to the polio eradication program. It reviews annual reports from National Certification Committees for Poliomyelitis Eradication (NCCPEs), assesses evidence related to population immunity, surveillance quality, outbreak preparedness, containment, and transition, and provides recommendations to Member States and WHO.\n*   **Setting Standards and Recommendations:** WHO issues recommendations for polio vaccine schedules (e.g., in line with SAGE/WHO recommendations) and poliovirus containment standards (e.g., Global Action Plan for Poliovirus Containment, fourth edition - GAPIV).\n*   **Monitoring and Reporting:** WHO headquarters provides global updates on polio eradication and transition, while the WHO Regional Office for South-East Asia provides regional updates on maintaining polio-free status and polio transition.\n*   **Supporting Country-Level Implementation:** WHO supports Member States in implementing recommendations, conducting feasibility assessments (e.g., for environmental surveillance), and facilitating the accreditation of national polio laboratories.\n*   **Facilitating Collaboration:** WHO brings together various stakeholders, including Member States, NCCPEs, National Containment Task Forces, polio laboratory networks, partner agencies, and other WHO offices to coordinate efforts.\n*   **Ensuring Sustainability:** WHO is actively involved in the polio transition agenda, which aims to integrate critical capacities developed through the eradication program (such as surveillance, laboratory networks, and outbreak response) into national health systems to ensure their long-term sustainability.\n*   **Maintaining Polio-Free Status:** The overarching objective of WHO's efforts in the region is to maintain the wild poliovirus-free status of the South-East Asia Region and safeguard public health gains.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): None, 1, 4, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 26, 27, 28\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-07T16:01:48.762029+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a76014eb222a40c8ac112d1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786118477387-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "why who is orgainise this",
+      "timestamp": "2026-08-14T12:59:20.522827+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe World Health Organization (WHO) organizes the Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication (SEA-RCCPE) primarily to assess progress in sustaining the wild poliovirus-free status of the South-East Asia Region and to provide a conclusion on the regional polio-free status.\n\nMore specifically, the objectives of the meeting include:\n\n*   **Maintaining Polio-Free Status:** To review country performances in maintaining polio-free status, focusing on population immunity, polio surveillance, national risk assessments, outbreak preparedness and response, and poliovirus containment and post-certification strategy.\n*   **Post-Certification Strategy:** To review and provide inputs to the post-certification strategy, including the containment of polioviruses.\n*   **Polio Transition:** To review the progress made towards the polio transition agenda, which involves integrating essential polio functions into national health systems.\n*   **Accountability:** To review the implementation status of recommendations made at the previous (18th) meeting of the SEA-RCCPE.\n\nThe Commission also reviews annual reports from National Certification Committees for Poliomyelitis Eradication (NCCPEs), country presentations, and regional program data to assess developments related to population immunity, surveillance, outbreak preparedness and response, poliovirus containment, and polio transition. This independent oversight is crucial for safeguarding the Region's public health gains against poliomyelitis.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): 4, 7, 28\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-14T12:59:20.524314+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a76014eb222a40c8ac112d1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786118477387-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is who doing in this and give me exact this not long",
+      "timestamp": "2026-08-14T13:06:08.077922+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe World Health Organization (WHO) is involved in the polio eradication program in the South-East Asia Region primarily through the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication (SEA-RCCPE). Its key activities include:\n\n*   **Organizing and Hosting Meetings:** WHO organizes meetings like the Nineteenth Meeting of the SEA-RCCPE to review progress.\n*   **Providing Independent Oversight:** The SEA-RCCPE, a WHO body, independently assesses regional and national efforts to maintain polio-free status.\n*   **Setting Standards:** WHO issues recommendations for polio vaccine schedules and poliovirus containment standards.\n*   **Monitoring and Reporting:** WHO provides global and regional updates on polio eradication and transition.\n*   **Supporting Transition:** WHO actively supports the integration of essential polio functions into national health systems.\n*   **Maintaining Polio-Free Status:** The ultimate goal is to sustain the wild poliovirus-free status of the South-East Asia Region.\n\nSource:\n- Document: SEA -HDC-5-eng.pdf\n- Page(s): None, 1, 4, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 26, 27, 28\n\nConfidence:\nHigh",
+      "timestamp": "2026-08-14T13:06:08.080343+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "SEA -HDC-5-eng.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6a76014eb222a40c8ac112d1",
+              "workspace_id": null,
+              "document_name": "SEA -HDC-5-eng.pdf",
+              "title": "SEA  HDC 5 eng",
+              "filename": "1786118477387-SEA_-HDC-5-eng.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication\nReport of the Meeting | Colombo, Sri Lanka | 24\u201326 June 2026\nNineteenth Meeting of the WHO South-East Asia Regional Certification Commission for Poliomyelitis Eradication"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "what was the content inside my pdf and explain experiment",
+      "timestamp": "2026-09-27T07:33:49.624939+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nThe uploaded PDF document, titled \"EXPERIMENT-4,\" details an experiment focused on creating and verifying a basic wireless network.\n\n**Content of the PDF:**\nThe document is structured as an experiment report and includes the following sections:\n\n*   **AIM:** States the objective of the experiment, which is to create a basic network comprising one server, two computers, and two mobile/movable devices using appropriate network wiring, and then verify its connectivity.\n*   **THEORY:** Provides foundational knowledge on wireless networks. It defines what a wireless network is (devices communicating without physical cables using radio signals like Wi-Fi) and lists various types:\n    *   **WPAN (Wireless Personal Area Network):** For short-distance communication (e.g., Bluetooth, NFC for personal devices).\n    *   **WLAN (Wireless Local Area Network):** Covers limited geographical areas (e.g., home, office) using Wi-Fi routers.\n    *   **WMAN (Wireless Metropolitan Area Network):** Covers larger areas like towns or cities, connecting multiple buildings.\n    *   **WWAN (Wireless Wide Area Network):** Covers very large areas (cities, countries) using cellular technologies (2G, 3G, 4G, 5G).\n    *   **WSN (Wireless Sensor Network):** Consists of sensors collecting environmental data (e.g., temperature, humidity) and sending it to a central system.\n    It also defines a **Wireless Access Point (WAP)** as a networking device that allows wireless devices to connect to a wired network using Wi-Fi, acting as a central connection point.\n*   **TOPOLOGY:** This section is indicated but the content is an image, which visually represents the network setup.\n*   **STEPS:** This section is also indicated by images, outlining the procedure for setting up the network.\n*   **RESULT:** Presents the outcomes of the experiment, specifically:\n    *   **IPCONFIG:** Shows the IP configuration for two wireless connections, displaying IPv4 addresses (e.g., 192.168.0.109 and 192.168.0.100), subnet masks (255.255.255.0), and a default gateway (192.168.0.1). It also shows configurations for 3G/4G Cell1 and Bluetooth connections, though these have 0.0.0.0 for IP addresses and gateways, suggesting they were not actively used or configured in this specific network setup.\n    *   **PING:** Demonstrates successful connectivity tests between devices. Pings to 192.168.0.100 and 192.168.0.105 (another device in the network) show replies with low latency and 0% packet loss, confirming network connectivity.\n\n**Explanation of the Experiment:**\nThe experiment, \"EXPERIMENT-4,\" aimed to establish and verify a basic network. While the specific \"network wire\" mentioned in the aim suggests a wired component, the detailed theory and results primarily focus on a **wireless network** setup. The core steps involved:\n\n1.  **Network Creation:** Setting up a network that includes one server, two computers, and two mobile/movable devices. Based on the theory section, this likely involved using a Wireless Access Point (WAP) to allow these devices to connect wirelessly.\n2.  **Configuration:** Assigning or obtaining IP addresses for the connected devices within the network (e.g., 192.168.0.x range).\n3.  **Connectivity Verification:** Using command-line tools to confirm that devices could communicate with each other.\n    *   `ipconfig` was used to display the network configuration of the wireless connections, showing their assigned IPv4 addresses and default gateway.\n    *   `ping` was used to send data packets to other devices on the network (e.g., 192.168.0.100 and 192.168.0.105). The successful replies from these ping tests, with no packet loss, confirmed that the devices were properly connected and could communicate within the created network.\n\nSource:\n- Document: exp_4_cn.pdf\n- Page(s): None\n\nConfidence:\nHigh",
+      "timestamp": "2026-09-27T07:33:49.629003+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "exp_4_cn.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6ab8c6b24d9f87c3cd36873f",
+              "workspace_id": null,
+              "document_name": "exp_4_cn.pdf",
+              "title": "exp 4 cn",
+              "filename": "1790494385535-exp_4_cn.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nitin Kumar 13515003124\n\nEXPERIMENT-4\nAIM: Create a basic network of one server and two computers and two mobile/movable\ndevices using appropriate network wire and verify the connectivity.\nTHEORY:-\nWIRELESS NETWORK:\nA wireless network is a network in which devices communicate and"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "explain the code experiment 5 (a) in os pdf",
+      "timestamp": "2026-09-27T07:36:49.895899+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nI could not find this information in the uploaded documents. The document \"OSFinalFileN.pdf\" contains \"Program 1\" and \"Program 2\" related to CPU scheduling algorithms, but there is no \"Experiment 5 (a)\" or \"Program 5 (a)\" mentioned or detailed within the provided excerpts.\n\nSource:\n- Document: OSFinalFileN.pdf\n- Page(s): N/A\n\nConfidence:\nHigh",
+      "timestamp": "2026-09-27T07:36:49.898916+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "OSFinalFileN.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6ab8c7694d9f87c3cd368769",
+              "workspace_id": null,
+              "document_name": "OSFinalFileN.pdf",
+              "title": "OSFinalFileN",
+              "filename": "1790494568927-OSFinalFileN.pdf",
+              "page_number": null
+            },
+            "excerpt": "Operating Systems Lab\n(CIC-353)\n submitted in partial fulfillment of the\n requirement for the award of the degree of\n\nBachelor of Technology in\nInformation Technology\n\nSubmitted by\nNitin Kumar (51)\n13515003124\n\nUnder the supervision of\nDR. Preeti Rathee Professor\n\nDEPARTMENT OF I"
+          },
+          {
+            "documentName": "exp_4_cn.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6ab8c6b24d9f87c3cd36873f",
+              "workspace_id": null,
+              "document_name": "exp_4_cn.pdf",
+              "title": "exp 4 cn",
+              "filename": "1790494385535-exp_4_cn.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nitin Kumar 13515003124\n\nEXPERIMENT-4\nAIM: Create a basic network of one server and two computers and two mobile/movable\ndevices using appropriate network wire and verify the connectivity.\nTHEORY:-\nWIRELESS NETWORK:\nA wireless network is a network in which devices communicate and"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "sorry explain programe 1 code",
+      "timestamp": "2026-09-27T07:37:26.204032+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nProgram 1 in the \"OSFinalFileN.pdf\" document is a C++ program designed to implement the **First Come First Serve (FCFS) CPU Scheduling Algorithm**. Its aim is to calculate the Completion Time (CT), Turnaround Time (TAT), Waiting Time (WT), Average Turnaround Time, and Average Waiting Time for a given set of processes.\n\nHere's an explanation of the code:\n\n*   **Includes and Namespace:**\n    *   `#include <iostream>`: This line includes the input/output stream library, allowing the program to interact with the user (e.g., `cout` for output, `cin` for input).\n    *   `#include <vector>`: This line includes the vector library, which provides dynamic arrays to store process details.\n    *   `using namespace std;`: This statement brings the standard namespace into scope, so you don't have to prefix standard library elements like `cout` and `cin` with `std::`.\n\n*   **Main Function (`int main()`):**\n    *   **Input Number of Processes:**\n        *   `int n;`: Declares an integer variable `n` to store the number of processes.\n        *   `cout << \"Enter number of processes: \";`: Prompts the user to enter the number of processes.\n        *   `cin >> n;`: Reads the user's input for `n`.\n    *   **Declare Vectors for Process Data:**\n        *   `vector<int> pid(n), at(n), bt(n), ct(n), wt(n), tat(n);`: Declares six vectors, each of size `n`, to store:\n            *   `pid`: Process ID.\n            *   `at`: Arrival Time.\n            *   `bt`: Burst Time (CPU execution time).\n            *   `ct`: Completion Time.\n            *   `wt`: Waiting Time.\n            *   `tat`: Turnaround Time.\n    *   **Input Process Details:**\n        *   A `for` loop iterates `n` times to get details for each process.\n        *   `pid[i] = i + 1;`: Assigns a process ID (P1, P2, etc.).\n        *   The user is prompted to enter the Arrival Time (`at[i]`) and Burst Time (`bt[i]`) for each process.\n    *   **Sort Processes by Arrival Time (FCFS Principle):**\n        *   A nested `for` loop (bubble sort-like) is used to sort the processes based on their arrival times in ascending order. This is crucial for FCFS, as processes are executed in the order they arrive.\n        *   `if (at[i] > at[j])`: If a process arrives later than another, their details (arrival time, burst time, and process ID) are swapped to ensure the earlier arriving process comes first.\n    *   **Calculate Completion Time, Turnaround Time, and Waiting Time:**\n        *   `int time = 0;`: Initializes a `time` variable to keep track of the current CPU time.\n        *   Another `for` loop iterates through the (now sorted) processes:\n            *   `if (time < at[i]) time = at[i];`: If the CPU is idle (current `time` is less than the process's arrival time), the CPU waits until the process arrives.\n            *   `ct[i] = time + bt[i];`: Completion Time is the current `time` plus the process's Burst Time.\n            *   `tat[i] = ct[i] - at[i];`: Turnaround Time is Completion Time minus Arrival Time.\n            *   `wt[i] = tat[i] - bt[i];`: Waiting Time is Turnaround Time minus Burst Time.\n            *   `time = ct[i];`: Updates the `time` to the completion time of the current process, as the next process will start after this one finishes.\n    *   **Display Results and Calculate Averages:**\n        *   `cout << \"\\nProcess\\tAT\\tBT\\tCT\\tTAT\\tWT\\n\";`: Prints the header for the results table.\n        *   `float avgWt = 0, avgTat = 0;`: Initializes variables to accumulate total waiting and turnaround times.\n        *   A `for` loop iterates through the processes to print their individual details (PID, AT, BT, CT, TAT, WT) and sum up `wt[i]` and `tat[i]`.\n        *   `cout << \"\\nAverage Waiting Time: \" << avgWt / n;`: Calculates and prints the average waiting time.\n        *   `cout << \"\\nAverage Turnaround Time: \" << avgTat / n;`: Calculates and prints the average turnaround time.\n    *   `return 0;`: Indicates successful program execution.\n\nSource:\n- Document: OSFinalFileN.pdf\n- Page(s): 1, 2, 3\n\nConfidence:\nHigh",
+      "timestamp": "2026-09-27T07:37:26.206503+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "OSFinalFileN.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6ab8c7694d9f87c3cd368769",
+              "workspace_id": null,
+              "document_name": "OSFinalFileN.pdf",
+              "title": "OSFinalFileN",
+              "filename": "1790494568927-OSFinalFileN.pdf",
+              "page_number": null
+            },
+            "excerpt": "Operating Systems Lab\n(CIC-353)\n submitted in partial fulfillment of the\n requirement for the award of the degree of\n\nBachelor of Technology in\nInformation Technology\n\nSubmitted by\nNitin Kumar (51)\n13515003124\n\nUnder the supervision of\nDR. Preeti Rathee Professor\n\nDEPARTMENT OF I"
+          },
+          {
+            "documentName": "exp_4_cn.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6ab8c6b24d9f87c3cd36873f",
+              "workspace_id": null,
+              "document_name": "exp_4_cn.pdf",
+              "title": "exp 4 cn",
+              "filename": "1790494385535-exp_4_cn.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nitin Kumar 13515003124\n\nEXPERIMENT-4\nAIM: Create a basic network of one server and two computers and two mobile/movable\ndevices using appropriate network wire and verify the connectivity.\nTHEORY:-\nWIRELESS NETWORK:\nA wireless network is a network in which devices communicate and"
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "explain the programe 1 code in os pdf",
+      "timestamp": "2026-09-27T07:38:39.805440+00:00",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Answer:\nProgram 1 in the \"OSFinalFileN.pdf\" document is a C++ program designed to implement the **First Come First Serve (FCFS) CPU Scheduling Algorithm**. Its aim is to calculate the Completion Time (CT), Turnaround Time (TAT), Waiting Time (WT), Average Turnaround Time, and Average Waiting Time for a given set of processes.\n\nHere's an explanation of the code:\n\n*   **Includes and Namespace:**\n    *   `#include <iostream>`: This line includes the input/output stream library, allowing the program to interact with the user (e.g., `cout` for output, `cin` for input).\n    *   `#include <vector>`: This line includes the vector library, which provides dynamic arrays to store process details.\n    *   `using namespace std;`: This statement brings the standard namespace into scope, so you don't have to prefix standard library elements like `cout` and `cin` with `std::`.\n\n*   **Main Function (`int main()`):**\n    *   **Input Number of Processes:**\n        *   `int n;`: Declares an integer variable `n` to store the number of processes.\n        *   `cout << \"Enter number of processes: \";`: Prompts the user to enter the number of processes.\n        *   `cin >> n;`: Reads the user's input for `n`.\n    *   **Declare Vectors for Process Data:**\n        *   `vector<int> pid(n), at(n), bt(n), ct(n), wt(n), tat(n);`: Declares six vectors, each of size `n`, to store:\n            *   `pid`: Process ID.\n            *   `at`: Arrival Time.\n            *   `bt`: Burst Time (CPU execution time).\n            *   `ct`: Completion Time.\n            *   `wt`: Waiting Time.\n            *   `tat`: Turnaround Time.\n    *   **Input Process Details:**\n        *   A `for` loop iterates `n` times to get details for each process.\n        *   `pid[i] = i + 1;`: Assigns a process ID (P1, P2, etc.).\n        *   The user is prompted to enter the Arrival Time (`at[i]`) and Burst Time (`bt[i]`) for each process.\n    *   **Sort Processes by Arrival Time (FCFS Principle):**\n        *   A nested `for` loop (bubble sort-like) is used to sort the processes based on their arrival times in ascending order. This is crucial for FCFS, as processes are executed in the order they arrive.\n        *   `if (at[i] > at[j])`: If a process arrives later than another, their details (arrival time, burst time, and process ID) are swapped to ensure the earlier arriving process comes first.\n    *   **Calculate Completion Time, Turnaround Time, and Waiting Time:**\n        *   `int time = 0;`: Initializes a `time` variable to keep track of the current CPU time.\n        *   Another `for` loop iterates through the (now sorted) processes:\n            *   `if (time < at[i]) time = at[i];`: If the CPU is idle (current `time` is less than the process's arrival time), the CPU waits until the process arrives.\n            *   `ct[i] = time + bt[i];`: Completion Time is the current `time` plus the process's Burst Time.\n            *   `tat[i] = ct[i] - at[i];`: Turnaround Time is Completion Time minus Arrival Time.\n            *   `wt[i] = tat[i] - bt[i];`: Waiting Time is Turnaround Time minus Burst Time.\n            *   `time = ct[i];`: Updates the `time` to the completion time of the current process, as the next process will start after this one finishes.\n    *   **Display Results and Calculate Averages:**\n        *   `cout << \"\\nProcess\\tAT\\tBT\\tCT\\tTAT\\tWT\\n\";`: Prints the header for the results table.\n        *   `float avgWt = 0, avgTat = 0;`: Initializes variables to accumulate total waiting and turnaround times.\n        *   A `for` loop iterates through the processes to print their individual details (PID, AT, BT, CT, TAT, WT) and sum up `wt[i]` and `tat[i]`.\n        *   `cout << \"\\nAverage Waiting Time: \" << avgWt / n;`: Calculates and prints the average waiting time.\n        *   `cout << \"\\nAverage Turnaround Time: \" << avgTat / n;`: Calculates and prints the average turnaround time.\n    *   `return 0;`: Indicates successful program execution.\n\nSource:\n- Document: OSFinalFileN.pdf\n- Page(s): 1, 2, 3\n\nConfidence:\nHigh",
+      "timestamp": "2026-09-27T07:38:39.808947+00:00",
+      "metadata": {
+        "sources": [
+          {
+            "documentName": "OSFinalFileN.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6ab8c7694d9f87c3cd368769",
+              "workspace_id": null,
+              "document_name": "OSFinalFileN.pdf",
+              "title": "OSFinalFileN",
+              "filename": "1790494568927-OSFinalFileN.pdf",
+              "page_number": null
+            },
+            "excerpt": "Operating Systems Lab\n(CIC-353)\n submitted in partial fulfillment of the\n requirement for the award of the degree of\n\nBachelor of Technology in\nInformation Technology\n\nSubmitted by\nNitin Kumar (51)\n13515003124\n\nUnder the supervision of\nDR. Preeti Rathee Professor\n\nDEPARTMENT OF I"
+          },
+          {
+            "documentName": "exp_4_cn.pdf",
+            "pageNumber": null,
+            "chunkScore": 1.0,
+            "metadata": {
+              "document_id": "6ab8c6b24d9f87c3cd36873f",
+              "workspace_id": null,
+              "document_name": "exp_4_cn.pdf",
+              "title": "exp 4 cn",
+              "filename": "1790494385535-exp_4_cn.pdf",
+              "page_number": null
+            },
+            "excerpt": "Nitin Kumar 13515003124\n\nEXPERIMENT-4\nAIM: Create a basic network of one server and two computers and two mobile/movable\ndevices using appropriate network wire and verify the connectivity.\nTHEORY:-\nWIRELESS NETWORK:\nA wireless network is a network in which devices communicate and"
+          }
+        ]
+      }
+    }
+  ]
+}

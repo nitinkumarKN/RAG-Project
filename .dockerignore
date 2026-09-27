@@ -1,0 +1,9 @@
+**/node_modules
+**/dist
+**/__pycache__
+**/.venv
+**/storage
+**/uploads
+.git
+.gitignore
+README.md
