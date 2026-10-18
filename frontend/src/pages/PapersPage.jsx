@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { FaDownload, FaTrash, FaFilePdf } from "react-icons/fa";
 import { deleteDocument, listDocuments } from "../services/documentService";
+import { resolveApiUrl } from "../services/api";
 import { useAuth } from "../context/AuthContext";
 
 export default function PapersPage() {
@@ -85,9 +86,7 @@ export default function PapersPage() {
             <div className="mt-5 flex flex-wrap gap-2">
               <a
                 href={
-                  document.downloadUrl.startsWith("http")
-                    ? document.downloadUrl
-                    : `http://localhost:5000${document.downloadUrl}`
+                  resolveApiUrl(document.downloadUrl)
                 }
                 target="_blank"
                 rel="noreferrer"
