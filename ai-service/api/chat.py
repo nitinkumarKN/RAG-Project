@@ -72,20 +72,13 @@ def chat(payload: ChatRequest):
     logger.info('[API] /api/chat request received: question_len=%d documents=%d workspaceId=%s', len(payload.question or ''), len(payload.documents or []), payload.workspaceId)
 
     pipeline = get_pipeline()
-    has_document_text = any(document.extractedText.strip() for document in payload.documents)
-    if payload.documents and has_document_text:
+    if payload.documents:
         return pipeline.chat_from_documents(
             payload.question,
             [document.model_dump() for document in payload.documents],
             session_id=payload.sessionId,
         )
-
-    if payload.documents and not payload.workspaceId:
-        payload.workspaceId = next(
-            (document.workspaceId for document in payload.documents if document.workspaceId),
-            None,
-        )
-
+    
     return pipeline.chat(
         payload.question,
         session_id=payload.sessionId,

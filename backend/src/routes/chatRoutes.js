@@ -5,6 +5,7 @@ import { validateRequest } from '../middleware/validateRequest.js';
 import { chatValidation } from '../validation/chatValidation.js';
 
 const router = Router();
+const aiServiceUrl = process.env.AI_SERVICE_URL;
 
 router.post('/', protect, ...chatValidation, validateRequest, createChat);
 router.get('/history', protect, getChatHistory);

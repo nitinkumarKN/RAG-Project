@@ -61,6 +61,20 @@ app.use('/chat', chatRoutes);
 // Keep document uploads compatible with clients that omit the /api prefix.
 app.use('/document', documentRoutes);
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    service: "MERN Backend",
+    status: "ok",
+    message: "Backend is running"
+  });
+});
+
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    status: "ok"
+  });
+});
+
 app.use((_req, res) => {
   res.status(404).json({ message: 'Route not found' });
 });
