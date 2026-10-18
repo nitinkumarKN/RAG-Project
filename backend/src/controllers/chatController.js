@@ -36,8 +36,8 @@ function buildDocumentPayload(document) {
 
 function buildFallbackAnswer() {
   return {
-    answer: 'I could not find this information in the uploaded medical papers.',
-    confidenceMessage: 'No supporting evidence was retrieved from the uploaded documents.',
+    answer: 'The AI service is unavailable right now, so the uploaded papers could not be searched.',
+    confidenceMessage: 'AI service connection failed before document retrieval completed.',
     sources: [],
   };
 }
