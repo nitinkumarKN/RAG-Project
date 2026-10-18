@@ -53,6 +53,20 @@ class RAGPipeline:
 
         return bool(os.getenv('OPENAI_API_KEY') or os.getenv('GEMINI_API_KEY'))
 
+    @staticmethod
+    def _configuration_answer() -> str:
+        return (
+            'I found relevant text in the uploaded papers, but the AI model is not configured. '
+            'Set GEMINI_API_KEY in the AI service environment and redeploy.'
+        )
+
+    @staticmethod
+    def _generation_failure_answer() -> str:
+        return (
+            'I found relevant text in the uploaded papers, but the AI model could not generate an answer. '
+            'Check the Gemini API key, model access, and AI service logs.'
+        )
+
     @property
     def chain_factory(self) -> ChainFactory:
         """Provide a simple ChainFactory for prompt formatting when needed."""
@@ -379,9 +393,10 @@ class RAGPipeline:
                 try:
                     answer = generate_text(prompt_text).strip() or 'I could not find this information in the uploaded documents.'
                 except Exception:
-                    answer = 'I could not find this information in the uploaded documents.'
+                    self.logger.exception('[RAG][CHAT] Direct-document LLM generation failed')
+                    answer = self._generation_failure_answer()
             else:
-                answer = 'I could not find this information in the uploaded documents.'
+                answer = self._configuration_answer()
             confidence_message = f'Medium confidence based on {len(selected_chunks)} supplied document(s).'
             sources = [
                 {
@@ -478,9 +493,9 @@ class RAGPipeline:
                     self.logger.info('[RAG][CHAT] LLM response: %s', answer[:1000])
                 except Exception:
                     self.logger.exception('[RAG][CHAT] LLM generation failed')
-                    raise HTTPException(status_code=500, detail='LLM generation failed')
+                    answer = self._generation_failure_answer()
             else:
-                answer = 'I could not find this information in the uploaded documents.'
+                answer = self._configuration_answer()
             confidence_message = f'{retrieval.confidence} confidence based on {len(retrieval.chunks)} supporting chunks.'
             sources = [
                 {
