@@ -34,7 +34,7 @@ the AI upload and chat endpoints.
 
 - Set the project root to `ai-service`
 - Build command: `pip install -r requirements.txt`
-- Start command: `uvicorn app:app --host 0.0.0.0 --port 8000`
+- Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 - Environment variables:
   - `GEMINI_API_KEY`
   - `FAISS_INDEX_PATH`
