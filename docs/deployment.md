@@ -26,6 +26,10 @@
   - `UPLOAD_DIR`
   - `MAX_FILE_SIZE_MB`
 
+Set `CLIENT_URL` to the deployed frontend URL. `AI_SERVICE_URL` may be either the
+AI service root URL or its `/api` URL; the backend normalizes it before calling
+the AI upload and chat endpoints.
+
 ## AI Service: Render
 
 - Set the project root to `ai-service`
@@ -36,6 +40,10 @@
   - `FAISS_INDEX_PATH`
   - `UPLOAD_DIR`
   - `CORS_ORIGINS`
+
+Set `CORS_ORIGINS` to the deployed frontend URL and use the AI service root URL
+for `AI_SERVICE_URL` in the backend environment, for example:
+`https://your-ai-service.onrender.com`.
 
 ## MongoDB Atlas
 
