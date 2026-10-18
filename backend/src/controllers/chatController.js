@@ -25,11 +25,12 @@ function formatChat(chat) {
 function buildDocumentPayload(document) {
   return {
     documentId: document._id,
+    workspaceId: document.workspace,
     title: document.title,
     filename: document.filename,
     originalName: document.originalName,
     pages: document.pages,
-    extractedText: document.extractedText || '',
+    extractedText: document.extractedText || document.summary || '',
   };
 }
 
