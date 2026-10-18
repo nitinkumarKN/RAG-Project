@@ -51,6 +51,9 @@ app.use('/api/workspace', workspaceRoutes);
 app.use('/api/document', documentRoutes);
 app.use('/api/chat', chatRoutes);
 
+// Keep document uploads compatible with clients that omit the /api prefix.
+app.use('/document', documentRoutes);
+
 app.use((_req, res) => {
   res.status(404).json({ message: 'Route not found' });
 });
