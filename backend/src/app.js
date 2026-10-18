@@ -56,6 +56,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/workspace', workspaceRoutes);
 app.use('/api/document', documentRoutes);
 app.use('/api/chat', chatRoutes);
+app.use('/chat', chatRoutes);
 
 // Keep document uploads compatible with clients that omit the /api prefix.
 app.use('/document', documentRoutes);

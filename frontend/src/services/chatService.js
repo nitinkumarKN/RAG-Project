@@ -1,8 +1,18 @@
 import api from './api';
 
 export async function sendChatMessage(payload) {
-  const { data } = await api.post('/chat', payload);
-  return data;
+  try {
+    const { data } = await api.post('/chat', payload);
+    return data;
+  } catch (error) {
+    if (error?.response?.status !== 404) {
+      throw error;
+    }
+
+    const fallbackApi = api.defaults.baseURL.replace(/\/api\/?$/, '');
+    const { data } = await api.post(`${fallbackApi}/chat`, payload);
+    return data;
+  }
 }
 
 export async function getChatHistory(workspaceId) {
