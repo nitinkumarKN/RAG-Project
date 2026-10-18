@@ -174,5 +174,37 @@
     "pages": 9,
     "upload_status": "ready",
     "processed_at": "2026-09-27T07:36:09.990647+00:00"
+  },
+  {
+    "id": "260e0d4e-45c0-4a02-a834-72cede533ada",
+    "document_id": "260e0d4e-45c0-4a02-a834-72cede533ada",
+    "workspace_id": "6ab8c8474d9f87c3cd3687b7",
+    "title": "JAVA mini ppt",
+    "original_name": "1792319675511-JAVA_mini_ppt.pdf",
+    "filename": "260e0d4e-45c0-4a02-a834-72cede533ada-1792319675511-JAVA_mini_ppt.pdf",
+    "file_path": "C:\\Users\\nitin\\Downloads\\RAG PRO\\ai-service\\uploads\\260e0d4e-45c0-4a02-a834-72cede533ada-1792319675511-JAVA_mini_ppt.pdf",
+    "author": null,
+    "created_date": "2026-10-18T10:34:39.758639+00:00",
+    "file_size": 4313870,
+    "mime_type": "application/pdf",
+    "pages": 21,
+    "upload_status": "ready",
+    "processed_at": "2026-10-18T10:34:39.758659+00:00"
+  },
+  {
+    "id": "d3f964a0-e37b-4d49-abb0-cadad5daec71",
+    "document_id": "d3f964a0-e37b-4d49-abb0-cadad5daec71",
+    "workspace_id": "6ab8c8474d9f87c3cd3687b7",
+    "title": "java lab 5",
+    "original_name": "1792320171754-java_lab_5.pdf",
+    "filename": "d3f964a0-e37b-4d49-abb0-cadad5daec71-1792320171754-java_lab_5.pdf",
+    "file_path": "C:\\Users\\nitin\\Downloads\\RAG PRO\\ai-service\\uploads\\d3f964a0-e37b-4d49-abb0-cadad5daec71-1792320171754-java_lab_5.pdf",
+    "author": null,
+    "created_date": "2026-10-18T10:42:53.011606+00:00",
+    "file_size": 414588,
+    "mime_type": "application/pdf",
+    "pages": 14,
+    "upload_status": "ready",
+    "processed_at": "2026-10-18T10:42:53.011672+00:00"
   }
 ]

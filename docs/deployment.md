@@ -10,6 +10,10 @@
   - `VITE_AI_SERVICE_URL`
   - `VITE_APP_NAME`
 
+For this deployment, set `VITE_API_BASE_URL` to
+`https://rag-project-back.onrender.com/api`. Vite embeds this value at build
+time, so redeploy the frontend after changing it.
+
 ## Backend: Render
 
 - Set the project root to `backend`
@@ -26,9 +30,10 @@
   - `UPLOAD_DIR`
   - `MAX_FILE_SIZE_MB`
 
-Set `CLIENT_URL` to the deployed frontend URL. `AI_SERVICE_URL` may be either the
-AI service root URL or its `/api` URL; the backend normalizes it before calling
-the AI upload and chat endpoints.
+Set `CLIENT_URL` to `https://rag-project-az0l.onrender.com` and
+`AI_SERVICE_URL` to `https://rag-project-ai.onrender.com`. The backend also
+accepts an AI URL ending in `/api` and normalizes it before calling the AI
+upload and chat endpoints.
 
 ## AI Service: Render
 
@@ -41,9 +46,7 @@ the AI upload and chat endpoints.
   - `UPLOAD_DIR`
   - `CORS_ORIGINS`
 
-Set `CORS_ORIGINS` to the deployed frontend URL and use the AI service root URL
-for `AI_SERVICE_URL` in the backend environment, for example:
-`https://your-ai-service.onrender.com`.
+Set `CORS_ORIGINS` to `https://rag-project-az0l.onrender.com`.
 
 ## MongoDB Atlas
 

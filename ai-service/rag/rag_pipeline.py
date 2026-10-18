@@ -22,7 +22,6 @@ from .prompt import (
 )
 from .loader import DocumentLoaderService
 from .memory import ConversationMemoryStore
-from .prompt import build_context_block
 from .retriever import RetrievalResult, RetrieverService
 from .splitter import TextSplitterService
 from .utils import RetrievedChunk, clean_text, format_source_metadata, safe_filename, serialize_json_safe, utc_now_iso
@@ -160,37 +159,28 @@ class RAGPipeline:
             chunked_documents = self.splitter.split_documents(cleaned_documents)
             for chunk_index, chunk in enumerate(chunked_documents):
 
-             old_metadata = chunk.metadata or {}
+                old_metadata = chunk.metadata or {}
+                chunk.metadata = {
+                    **old_metadata,
+                    'document_id': record['document_id'],
+                    'workspace_id': record.get('workspace_id'),
+                    'document_name': record['original_name'],
+                    'title': record['title'],
+                    'filename': record['filename'],
+                    'page_number': (
+                        old_metadata.get('page_number')
+                        or old_metadata.get('page')
+                        or old_metadata.get('pageNumber')
+                        or 1
+                    ),
+                    'source': old_metadata.get('source', record['original_name']),
+                    'chunk_index': chunk_index,
+                    'chunk_id': f"{record['document_id']}-{chunk_index}",
+                }
 
-            chunk.metadata = {
-            **old_metadata,
+                indexed_documents.append(chunk)
 
-        # Document information
-        "document_id": record["document_id"],
-        "workspace_id": record.get("workspace_id"),
-        "document_name": record["original_name"],
-        "title": record["title"],
-        "filename": record["filename"],
-
-        # Preserve page number from loader
-        "page_number": (
-            old_metadata.get("page_number")
-            or old_metadata.get("page")
-            or old_metadata.get("pageNumber")
-            or 1
-        ),
-
-        # Preserve source if available
-        "source": old_metadata.get("source", record["original_name"]),
-
-        # Chunk information
-        "chunk_index": chunk_index,
-        "chunk_id": f"{record['document_id']}-{chunk_index}",
-    }
-
-            indexed_documents.append(chunk)
-
-            return indexed_documents
+        return indexed_documents
 
     def _refresh_index(self) -> None:
         """Rebuild the vector index from the current manifest."""
@@ -366,7 +356,12 @@ class RAGPipeline:
 
         chunks: list[RetrievedChunk] = []
         for index, document in enumerate(documents):
-            text = clean_text(document.get('extractedText') or '')
+            text = clean_text(
+                document.get('extractedText')
+                or document.get('text')
+                or document.get('content')
+                or ''
+            )
             if not text:
                 continue
 
@@ -391,7 +386,7 @@ class RAGPipeline:
                 history = self.memory.as_text(session_id, window_size=self.settings.history_window)
                 prompt_text = format_chat_prompt(question, history, context)
                 try:
-                    answer = generate_text(prompt_text).strip() or 'I could not find this information in the uploaded documents.'
+                    answer = generate_text(prompt_text).strip() or self._generation_failure_answer()
                 except Exception:
                     self.logger.exception('[RAG][CHAT] Direct-document LLM generation failed')
                     answer = self._generation_failure_answer()
@@ -436,6 +431,7 @@ class RAGPipeline:
             workspace_id=workspace_id,
             document_ids=document_ids,
             top_k=top_k,
+            search_type=search_type,
         )
         return {
             'query': result.query,
@@ -469,6 +465,7 @@ class RAGPipeline:
             workspace_id=workspace_id,
             document_ids=document_ids,
             top_k=top_k,
+            search_type=search_type,
         )
 
         if not retrieval.chunks:
@@ -489,7 +486,7 @@ class RAGPipeline:
                 prompt_text = format_chat_prompt(question, history, context)
                 try:
                     self.logger.info('[RAG][CHAT] Prompt sent to LLM: %s', prompt_text[:1000])
-                    answer = generate_text(prompt_text).strip() or 'I could not find this information in the uploaded documents.'
+                    answer = generate_text(prompt_text).strip() or self._generation_failure_answer()
                     self.logger.info('[RAG][CHAT] LLM response: %s', answer[:1000])
                 except Exception:
                     self.logger.exception('[RAG][CHAT] LLM generation failed')

@@ -65,13 +65,18 @@ export default function ChatPage() {
 
     try {
       const data = await sendChatMessage({ question: userMessage.content, workspaceId: selectedWorkspaceId });
+      const answer = data.answer ?? data.chat?.answer;
+      const sources = Array.isArray(data.sources)
+        ? data.sources
+        : (Array.isArray(data.chat?.sources) ? data.chat.sources : []);
+
       setMessages((current) => [
         ...current,
         {
           role: 'assistant',
-          content: data.answer,
+          content: typeof answer === 'string' ? answer : 'The AI service returned an empty answer.',
           timestamp: data.chat?.createdAt || new Date().toISOString(),
-          sources: data.sources || data.chat?.sources || [],
+          sources,
         },
       ]);
     } catch (error) {
